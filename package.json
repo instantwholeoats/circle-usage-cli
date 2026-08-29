@@ -4,7 +4,7 @@
   "description": "Simple CLI for Circle CI usage",
   "main": "lib/circle-usage.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "node --test"
   },
   "author": "lintaroken",
   "license": "MIT",
@@ -16,10 +16,8 @@
     "type": "git",
     "url": "https://github.com/lintaroken/circle-usage-cli.git"
   },
-  "dependencies": {
-    "chai": "^4.1.0",
-    "mocha": "^3.5.0",
-    "moment": "^2.18.1",
-    "request": "^2.81.0"
-  }
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
 }
